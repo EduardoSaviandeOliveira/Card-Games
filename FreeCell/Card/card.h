@@ -20,10 +20,6 @@ Card *new_card(int number, Suits suit);
 
 void delete_card(Card *card);
 
-Card *new_deck();
-
-void print_deck(Card *deck);
-
-void delete_deck(Card *deck);
+void print_card(Card *card);
 
 #endif
