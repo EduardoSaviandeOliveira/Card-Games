@@ -1,3 +1,6 @@
+#ifndef INCLUDE_CARD_DECK_C
+#define INCLUDE_CARD_DECK_C
+
 #include "card_deck.h"
 
 Card *new_card(int number, Suits suit) {
@@ -45,3 +48,5 @@ void delete_deck(Card *deck) {
     printf("%s", "Deleted");
     free(deck);
 }
+
+#endif

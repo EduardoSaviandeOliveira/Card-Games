@@ -1,5 +1,5 @@
-#ifndef CARD_DECK_H
-#define CARD_DECK_H
+#ifndef INCLUDE_CARD_DECK_H
+#define INCLUDE_CARD_DECK_H
 
 #include <stdio.h>
 #include <stdlib.h>
