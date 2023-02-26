@@ -18,7 +18,27 @@ void delete_card(Card *card) {
 
 void print_card(Card *card) {
     printf("Number %d ", card->number);
-    printf("Suit %d\n", card->suit);
+    printf("Suit %s\n", print_suit(card->suit));
+}
+
+const char *print_suit(Suits suit) {
+    if(suit == clubs) {
+        return "clubs";
+    }
+
+    if(suit == spades) {
+        return "spades";
+    }
+        
+    if(suit == hearts) {
+        return "hearts";
+    }
+        
+    if(suit == diamonds) {
+        return "diamonds";
+    }
+
+    return "It's not a suit";
 }
 
 #endif

@@ -28,6 +28,18 @@ void delete_deck(Card *deck) {
     free(deck);
 }
 
+void push(Card *card1, Card *card2) {
+
+}
+
+void push_always(Card *card1, Card *card2) {
+
+}
+
+void pop(Card *card1, Card *card2) {
+
+}
+
 void print_deck(Card *deck) {
     for(int i=0;i<52;i++) {
         print_card(&deck[i]);

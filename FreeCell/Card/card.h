@@ -6,9 +6,9 @@
 
 typedef enum {
     clubs = 1,
-    hearts = 2,
-    diamonds = 3,
-    spades = 4
+    hearts,
+    diamonds,
+    spades
 } Suits;
 
 typedef struct {
@@ -21,5 +21,7 @@ Card *new_card(int number, Suits suit);
 void delete_card(Card *card);
 
 void print_card(Card *card);
+
+const char *print_suit(Suits suit);
 
 #endif
